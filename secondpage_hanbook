@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Элемент а</title>
+  <meta name="discription" content="Полный справочник HTML" />
+  <meta name="keywords" content="HTML5, HTML, справочник, тег, атрибут" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+    
+
+         <header class="top">
+              
+               <div class="logo">
+                 <div class="logo_text">
+                  <h1><a href="/">Handbook HTML</a></h1>
+                  <h2>Ваш путеводитель в мире гипертекста</h2>
+                 </div>
+                      </div>
+
+                      <div class="menubar">
+                        <ul class="menu">
+                          <li class="selected"><a href="/">Главная</a></li>
+                          <li><a href="">Элементы HTML</a></li>
+                          <li><a href="">Атрибуты HTML</a></li>
+                          <li><a href="">Блог</a></li>
+                        </ul>
+                      </div>
+                   </header> <!--the end header-->
+
+                 <div id="tableContainer">
+                 <div id="tableRow">
+
+                  <section id="main">
+
+                  <div class="main_content">
+
+                    <div class="main_content_project">
+
+
+                         <h1>Элемент a</h1>
+                    <p>
+                    <span class="description">Элемент a </span>представляет собой гиперссылку (гипертекстовый якорь), отмеченную его содержимым.<br></p>
+                   <p> Состоит из открывающего и закрывающего тега.</p> <br>
+                    Ссылка на локальный файл:
+                    <textarea class="programmCode">
+                      
+                      <а href="имя_фaйлa.html"> ... </а>
+                    </textarea>
+                      Ссылка на внешний файл:
+                     <textarea class="programmCode"> 
+                      <а href="http://cepвep/nyть/фaйл.html"> ...< /a>
+                    </textarea>
+                      Ссылка для отправки сообщения электронной почты:
+                      <textarea class="programmCode">
+                      <а href="mailto:имяпользователя@домен"> ... </а>
+                    </textarea>
+                    <p>Является<span class="description"> потоковым содержимым,</span> т.е. используется в теле документа и в приложении.</p><br>
+                    <p><span class="description">Элемент a</span> размечает текст внутри абзаца (фразовое содержимое).</p><br>
+                    <p>Специально предназначено для взаимодействия с пользователем (интерактивное содержимое).</p><br> 
+                    <p>Если <span class="description">элемент a</span> имеет <span class="description">атрибут href,</span> то он представляет гиперссылку (гипертекстовый якорь), отмеченный его содержимым.<p><br>
+                    <p>Если <span class="description">элемент a</span> не имеет <span class="description">атрибута href,</span> то этот элемент представляет заглушку места, в котором может находиться гиперссылка.<br>В этом случае используется <span class="description">атрибут name</span>
+                    </p>
+                    <textarea class="programmCode">
+                      <a name="#">...</a>
+                    </textarea>
+
+            <div class="margin-8"></div>
+             <hr>
+            <h1>Атрибуты элемента a</h1>
+            <ul class="list">
+            <li>
+              <span class="description">href=”URL”</span> – адрес гиперссылки</li>
+             <li><span class="description">target</span> – Указывает имя окна или области iframe, где будет отображаться целевой документ.</li>
+              <li><span class="description">download =”имя файла”</span>– Указывает на использование ссылки для загружаемого ресурса. В качестве значения применяется имя файла ресурса, которое должно быть присвоено в локальной файловой системе сразу же после загрузки файла.</li>
+              <li><span class="description">rel=”ключевое слово  типа ссылки”</span>–  описывает одну или несколько связей между исходным и связанным документами.</li>
+              <li><span class="description">hreflang=”код языка” </span>– указывает основной язык целевого документа.</li>
+              <li><span class="description">type =”MIME”</span>– подсказка о типе связанного ресурса.</li>
+              <li><span class="description">id</span> – используется в качестве метки якоря и служит целевой точкой ссылки.</li>
+              <li><span class="description">target=”текст” </span>-  указывает имя окна или области iframe, где будет отображаться целевой документ.</li>
+              <li><span class="description">name</span>-устанавливает имя якоря внутри документа.</li>
+              <li><span class="description">accesskey</span>- активирует ссылку с помощью комбинации клавиш.</li> 
+              <li><span class="description">shape</span>-задает форму активной области ссылки для изображения.</li>
+            </ul>
+            <div class="margin-8"></div>
+             <hr>
+            <h1>Правила применения</h1>
+            <p>
+              Если отсутствует  <span class="description"> атрибут href</span> – нельзя использовать атрибуты target, download, rel, hreflang и type</p> <br>  
+             <p> <span class="description">Атрибуты href, target, download</span> влияют на то что происходит, когда пользователи переходят по гиперссылке или загружают гиперссылку, созданную с использованием элемента a.</p><br>
+             <p><span class="description">Атрибуты rel, hreflang и type</span> могут использоваться для указания пользователю возможной природы целевого ресурса, прежде чем пользователь перейдёт по этой ссылке.</p>
+            <div class="margin-8"></div>
+             <hr>
+            <h1>Типы ссылок применяемых элементом a</h1>
+            <p>
+              Ниже перечислены все ключевые слова типа ссылки, которые применяются в связке:<br>
+               <span class="description">a rel="ключевое слово типа ссылки"</span></p><br>
+
+            <ul class="list">
+              <li>alternate, license, prefetch</li>
+              <li>author, next,  prev</li>
+              <li>bookmark, nofollow, search</li>
+              <li>help, noreferrer, tag</li>
+            </ul>
+            
+            <div class="margin-8"></div>
+            <hr>
+            <h1>Примеры</h1>
+            <h1>Весь рекламный блок - ссылка</h1>
+                <p><span class="description">Элемент a</span> может быть оболочкой целых абзацев, списков, таблиц и т. п., даже разделов, пока у них внутри нет интерактивного содержимого (например, кнопок или других ссылок).<br> Этот пример показывает, как можно использовать <span class="description">элемент a</span>, чтобы сделать весь рекламный блок ссылкой:</p>
+                             <textarea class="programmCode"> 
+                                   
+            <aside class="advertising">
+              <h1>Реклама</h1>
+                <a href="http://">
+                    <section>
+                      <h1>Диван "Эльбрус" всего за 9000!</h1>
+                        <p>Купите сейчас диван Эльбрус</p>
+                          <p>и мы доставим диван в квартиру на любой этаж БЕСПЛАТНО.</p>
+                    </section>
+                </a>
+            </aside>
+
+                        </textarea>
+                        <p>Если сайт использует панель навигации на каждой странице, то ссылка, указывающая на страницу, может быть размечена с помощью <span class="description"> элемента a </span>:</p>
+                             <textarea class="programmCode"> 
+            <nav>
+               <ul>
+                <li> <a href="/">Главная</a> </li>
+                <li> <a href="/news">Новости</a> </li>
+                <li> <a>Examples</a>Примеры работ </li>
+                <li> <a href="/contact">Контакты</a> </li>
+               </ul>
+            </nav>
+           
+                    </textarea>
+
+
+
+            
+      </div><!--main_content-->
+    </div><!--main_content_project-->
+
+  </section><!-- the end  center section -->
+
+                   <aside>
+
+                        <div class="sidebar_container">
+                              <div class="sidebar">
+                                   <div class="sidebar_text"><h2>Об авторе</h2>
+                             <p>Авдеева Светлана</p>
+                             <span><b>Full-stack web-разработчик</b> <br><br>
+                              Привет! Надеюсь, что этот справочник поможет вам в работе. Я старалась сделать его удобным, информативным и полезным. А, если вы хотите узнать о том, кто я и чем я занимаюсь, вы можете прочитать, перейдя по ссылке.
+                            </span>
+                             <a href="#">Подробнее обо мне</a>
+                         </div>
+                  </div>
+                         
+                      </div><!--the end sidebar_container-->
+                       <div class="sidebar_button">
+
+                          <div class="button"><a href="#"><h2>Справочник CSS</h2></a></div> 
+                        </div>
+
+                         <div class="sidebar_button">
+                         <div class="button"><a href="#"><h2>Bootstrap</h2></a></div>
+                         </div>
+
+                          <div class="sidebar_button">
+                         <div class="button"><a href="#"><h2>JavaScript</h2></a></div>
+                         </div>
+
+                          <div class="sidebar_button">
+                         <div class="button"><a href="#"><h2>Справочник PHP</h2></a></div>
+                         </div>
+                           <table class="rigth_table">
+                          <caption>
+                            Атрибуты HTML
+                          </caption>
+                          <tr>
+                          <td class="letter"><a href="#" title="">A</a></td>
+                          <td><a href="#" title="">dir</a></td>
+                          <td><a href="#" title="">list</a></td>
+                          <td class="letter"><a href="#" title="">S</a></td>
+                          </tr>
+                            <tr>
+                              <td><a href="" title="">abbr</a></td>
+                              <td><a href="#" title="">dirname</a></td>
+                              <td><a href="#" title="">loop</a></td>
+                              <td><a href="#" title="">sandbox</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">accept</a></td>
+                              <td><a href="#" title="">disabled</a></td>
+                              <td><a href="#" title="">low</a></td>
+                              <td><a href="#" title="">spellcheck</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">accept-charset</a></td>
+                              <td><a href="#" title="">download</a></td>
+                              <td class="letter"><a href="#" title="">M</a></td>
+                              <td><a href="#" title="">scope</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">accesskey</a></td>
+                              <td class="letter"><a href="#" title="">E</a></td>
+                              <td><a href="#" title="">manifest</a></td>
+                              <td><a href="#" title="">selected</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">action</a></td>
+                              <td><a href="#" title="">enctype</a></td>
+                              <td><a href="#" title="">max</a></td>
+                              <td><a href="#" title="">shape</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">alt</a></td>
+                              <td class="letter"><a href="#" title="">F</a></td>
+                              <td><a href="#" title="">maxlength</a></td>
+                              <td><a href="#" title="">size</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">async</a></td>
+                              <td><a href="#" title="">for</a></td>
+                              <td><a href="#" title="">media</a></td>
+                              <td><a href="#" title="">sizes</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">autocomplete</a></td>
+                              <td><a href="#" title="">form</a></td>
+                              <td><a href="#" title="">mediagroup</a></td>
+                              <td><a href="#" title="">span</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">autofocus</a></td>
+                              <td><a href="#" title="">formaction</a></td>
+                              <td><a href="#" title="">mathod</a></td>
+                              <td><a href="#" title="">src</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">autoplay</a></td>
+                              <td><a href="#" title="">formenctype</a></td>
+                              <td><a href="#" title="">min</a></td>
+                              <td><a href="#" title="">srcdoc</a></td>
+                            </tr>
+                            <tr>
+                              <td class="letter"><a href="" title="">B</a></td>
+                              <td><a href="#" title="">formmethod</a></td>
+                              <td><a href="#" title="">minlength</a></td>
+                              <td><a href="#" title="">srclang</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">border</a></td>
+                              <td><a href="#" title="">formnovalidate</a></td>
+                              <td><a href="#" title="">multiple</a></td>
+                              <td><a href="#" title="">start</a></td>
+                            </tr>
+                            <tr>
+                              <td class="letter"><a href="" title="">C</a></td>
+                              <td><a href="#" title="">formtarget</a></td>
+                              <td><a href="#" title="">muted</a></td>
+                              <td><a href="#" title="">step</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">challenge</a></td>
+                              <td class="letter"><a href="#" title="">H</a></td>
+                              <td class="letter"><a href="#" title="">N</a></td>
+                              <td><a href="#" title="">style</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">charset</a></td>
+                              <td><a href="#" title="">headers</a></td>
+                              <td><a href="#" title="">name</a></td>
+                              <td class="letter"><a href="#" title="">T</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">checked</a></td>
+                              <td><a href="#" title="">height</a></td>
+                              <td><a href="#" title="">novalidate</a></td>
+                              <td><a href="#" title="">tabindex</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">cite</a></td>
+                              <td><a href="#" title="">hidden</a></td>
+                              <td class="letter"><a href="#" title="">O</a></td>
+                              <td><a href="#" title="">target</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">class</a></td>
+                              <td><a href="#" title="">high</a></td>
+                              <td><a href="#" title="">optimum</a></td>
+                              <td><a href="#" title="">title</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">cols</a></td>
+                              <td><a href="#" title="">href</a></td>
+                              <td class="letter"><a href="#" title="">P</a></td>
+                              <td><a href="#" title="">translate</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">colspan</a></td>
+                              <td><a href="#" title="">hreflang</a></td>
+                              <td><a href="#" title="">pattern</a></td>
+                              <td><a href="#" title="">type</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">contant</a></td>
+                              <td><a href="#" title="">http-equiv</a></td>
+                              <td><a href="#" title="">placeholder</a></td>
+                              <td><a href="#" title="">typemustmatch</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">contenteditable</a></td>
+                              <td class="letter"><a href="#" title="">I</a></td>
+                              <td><a href="#" title="">poster</a></td>
+                              <td class="letter"><a href="#" title="">U</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">controls</a></td>
+                              <td><a href="#" title="">id</a></td>
+                              <td><a href="#" title="">preload</a></td>
+                              <td><a href="#" title="">usemap</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">coords</a></td>
+                              <td><a href="#" title="">ismap</a></td>
+                              <td class="letter"><a href="#" title="">R</a></td>
+                              <td class="letter"><a href="#" title="">V</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">crossorigin</a></td>
+                              <td class="letter"><a href="#" title="">K</a></td>
+                              <td><a href="#" title="">readonly</a></td>
+                              <td><a href="#" title="">value</a></td>
+                            </tr>
+                            <tr>
+                              <td class="letter"><a href="" title="">D</a></td>
+                              <td><a href="#" title="">keytype</a></td>
+                              <td><a href="#" title="">rel</a></td>
+                              <td class="letter"><a href="#" title="">W</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">data</a></td>
+                              <td><a href="#" title="">kind</a></td>
+                              <td><a href="#" title="">required</a></td>
+                              <td><a href="#" title="">width</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">datetime</a></td>
+                              <td class="letter"><a href="#" title="">L</a></td>
+                              <td><a href="#" title="">reversed</a></td>
+                              <td><a href="#" title="">wrap</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">default</a></td>
+                              <td><a href="#" title="">label</a></td>
+                              <td><a href="#" title="">rows</a></td>
+                              <td><a href="#" title=""></a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="" title="">defer</a></td>
+                              <td><a href="#" title="">lang</a></td>
+                              <td><a href="#" title="">rowspan</a></td>
+                              <td><a href="#" title=""></a></td>
+                            </tr>                                                       
+                          </table>
+
+                          
+
+                    </aside><!--the end right section-->
+
+              </div>         
+       </div>
+       <div class="margin-8"></div>
+
+              <footer>
+        <span>&copy; Авдеева Светлана</span> |<a href="#"> Предложить мне проект</a>
+        <p>Коммерческое использование материалов сайта запрещено.<br> В остальных случаях обязательно наличие индексируемой ссылки со словом "Источник" на сайт или на страницу, содержащую этот материал.</p>
+        </footer>
+
+
+</body>
+</html>
