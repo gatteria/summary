@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    
+    <title>Бесплатная юридическая консультация</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--Подключение шрифтов -->
+    <link href="fonts/OpenSans-Bold.ttf" rel="stylesheet">
+    <link href="fonts/OpenSans-Regular.ttf" rel="stylesheet">
+ 
+<!--Подключение формы-->
+<script>
+   function checkForm(form) {
+ 
+      var name = form.name.value;
+      var n = name.match(/^[A-Za-zА-Яа-я ]*[A-Za-zА-Яа-я ]+$/);
+      if (!n) {
+         alert("Имя введено неверно, пожалуйста исправьте ошибку");
+         return false;
+      }
+ 
+      var phone = form.phone.value;
+      var p = phone.match(/^[0-9+][0-9- ]*[0-9- ]+$/);
+      if (!p) {
+         alert("Телефон введен неверно");
+         return false;
+      }
+ 
+      var mail = form.mail.value;
+      var m = mail.match(/^[A-Za-z0-9][A-Za-z0-9\._-]*[A-Za-z0-9_]*@([A-Za-z0-9]+([A-Za-z0-9-]*
+      [A-Za-z0-9]+)*\.)+[A-Za-z]+$/);
+      if (!m) {
+         alert("E-mail введен неверно, пожалуйста исправьте ошибку");
+         return false;
+      }
+      return true;
+   }
+</script>
+
+<!--Конец подключения формы-->
+</head>
+
+<body>
+ 
+ <div class="top_header">
+       <div class="title">
+           Бесплатная онлайн консультация жилищного юриста <br>в Краснодаре 
+      </div>
+     </div>
+     
+     
+  <div class="wrapper">
+    
+     <div class="wrapperBottom">  
+       <div class="experience">
+           <p class="first">Всего консультаций: 150</p>
+           <p class="second">Успешное решение проблемы: 95%</p>
+           <p class="third">Юридический стаж: 12 лет</p>
+       </div>
+   </div>
+   
+   <!--Центральная часть-->
+  
+    <div class="mainWrapper">
+        <header>
+           <div class="description">
+              <p>Жилищная проблема всегда болезненная и каждая всегда - уникальная. Мы понимаем это. Поэтому с вниманием относимся к каждому обратившемуся клиенту.</p> 
+              <p>Мы готовы помочь вам решить вашу проблему.</p>
+              <p>Получите БЕСПЛАТНУЮ онлайн консультацию ПРЯМО СЕЙЧАС!</p>
+           </div>
+           
+   <!--Форма--> 
+   <div class="form">
+       
+   <form id="application" action="mail.php" method="POST" onSubmit="return checkForm(this)">
+       
+     <fieldset>
+         
+      <legend>Получите бесплатную консультацию</legend>
+      
+   <label for="name">Ваше имя:</label> 
+   <input name="name" id="Name" maxlength="20" placeholder="Введите ваше имя" required="required" pattern="[A-Za-zА-Яа-я ]*[A-Za-zА-Яа-я]"/><br>
+   
+   <label for="mail">Ваше email:</label> 
+   <input name="mail" type="text" id="Email" maxlength="20" placeholder="Введите ваш E-mail" required="required"><br>
+   
+   <label for="phone">Ваш телефон:</label>
+   <input name="phone" type="text" id="Telephone" maxlength="20" placeholder="Введите ваш телефон" required="required" pattern="\+7[0-9]{3}-[0-9]{7}"/><br>
+  
+  <label for="message">Ваше сообщение:</label>
+  <textarea id="Comments" name="message" rows="10" cols="48" placeholder="Здесь вы можете написать юристу о своей проблеме " required="required"></textarea>
+  
+   <button class="applicationButton" type="submit" form="application">Отправить </button>
+   
+    </fieldset>
+</form>       
+ </div>
+ 
+ 
+
+<div class="instruction">
+               <h2>Инструкция по заполнению формы:</h2>
+               <ol>
+                   <li>Заполните все поля:<br> укажите ваше имя, актуальный номер телефона и e-mail</li><br>
+                   <li>На указанный номер телефона вам перезвонит юрист, если телефон будет недоступен, юрист проконсультирует вас письменно по указанной электронной почте</li><br>
+                   <li>Подробно напишите свой вопрос юристу</li><br>
+                   <li>Нажмите кнопку "Отправить"</li><br>
+                   <li>Ожидайте звонка юриста</li>
+               </ol>
+                
+            </div>
+        </header>
+    </div><!--Конец центральной части mainWrapper-->  
+         
+        <div class="padding-4">
+        <h2>По каким жилищным вопросам мы консультируем:</h2>
+        </div>
+        
+        
+    <div class="block1">
+            
+            <div class="list1">
+                
+                <ul>
+                    <li>Раздел совместной недвижимости </li>
+                    <li>Принудительное вселение в квартиру</li>
+                    <li>Принудительное выселение из квартиры</li>
+                    <li>Анализ сделки купли-продажи</li>
+                    <li>Долевое строительство</li>
+                    <li>Проблема с ипотекой</li>
+                </ul>
+        </div>
+            <div class="list2">      
+                   <ul>
+                    <li>Материнский капитал</li>
+                    <li>Ипотечное кредитование</li>
+                 <li>Недействительность сделки: продажа, дарение, мена</li>
+                    <li>Права несовершеннолетних детей на квартиру</li>
+                    <li>Наследование</li>
+                    <li>и многое другое</li>
+                </ul>
+                
+            </div>
+            
+        </div>
+        
+        
+        <div class="block2">
+           <h2>Как мы вам поможем</h2>
+
+        
+        
+           <div class="block_description1">
+                <figure>
+                <figcaption>
+                Напишите нам о своей проблеме</figcaption>
+               <img src="assets/img/img1.jpg" alt="">
+               </figure>
+           </div>
+           
+           <div class="block_description2">
+               <figure>
+                <figcaption>
+              Получите консультацию юриста
+                   </figcaption>
+               <img src="assets/img/img2.jpg" alt="">
+               </figure>
+           </div>
+           
+           <div class="block_description3">
+               <figure>
+                <figcaption>
+                Уверенно защищайте свои права
+                   </figcaption>
+               <img src="assets/img/img3.jpg" alt="">
+               </figure>
+           </div>
+        </div>    
+   
+        
+            <div class="bottom">
+                <p>Смелее:<br> напишите о своей проблеме и получите помощь юриста бесплатно!</p>
+                <button><a href="#application">Заполнить форму</a></button>
+            </div>
+       
+        
+    
+     </div><!--Конец главного контейнера-->   
+        <footer>
+            <p>&copy; <a href="#">Сайт разработан: Агентство интернет-рекламы LettoByte</a></p> 
+        </footer>
+        
+   
+
+</body>
+</html>
