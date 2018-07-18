@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+</head>
+<body>
+   <div class="container">
+       <div class="header">
+         
+         <!--Логотип + иконки соц.сетей-->
+          <div class="header_top">
+           <a href="#" class="logo"></a>
+           <div class="icons">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+              <a href=""><i class="fab fa-pinterest-p"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+           </div>
+           </div>
+           <!--Баннеры в шапке-->
+           <div class="slide_button">
+           <!--Правый баннер-->
+           <div class="slide">
+               <h3>Подарочный сертификат</h3><br>
+               <p>Подарите вашему другу-серферу возможность пройти курс обучения в Серф-школе.</p>
+           </div>
+           <div class="button-header">
+               <a href="">Заказать</a>
+           </div>
+           </div>
+           <!--Левый баннер-->
+           <div class="welcome">
+               <h3>Добро пожаловать в<br> surfhouse!</h3>
+               <p>Здесь вы найдете для себя все, что нужно для серфинга: серфборды, экипировка, одежда, акссесуары. </p>
+           </div>
+       </div>
+         
+         <!--Центральный блок-->
+         <div class="content">
+          <!--Левый сайдебар-->
+           <div class="left_sidebar">
+           <!--Меню-->
+            <div class="nav">
+                <div class="menu_heading">
+                    menu
+                </div>
+                <ul>
+                    <li>Серф-борды</li>
+                    <li>Серф-украшения</li>
+                    <li>Серф-косметика</li>
+                    <li>Баланс-борды</li>
+                    <li>Футболки</li>
+                    <li>Толстовки</li>
+                    <li>Серф-пончо</li>
+                    <li>Купальники</li>
+                    <li>Блог</li>
+                    <li>Подарочные карты</li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
+             <!--Сертификат-->
+              <div class="sertifecate">
+                  <h3>Подарок каждому покупателю!</h3>
+              </div>
+           </div>
+           
+           <!--Блок товары-->
+       <div class="product">
+           
+            <div class="new-products">Наши новинки</div>
+            
+            <!--Первый ряд товара-->
+            <div class="products_1"> <!-- Один-->
+              <!--Флажок на картинке-->
+               <div class="item">
+                    <div class="flag_new">
+                       <p>NEW</p> 
+                    </div>
+                </div>
+                <img src="assets/img/gidro2.jpg" width: 240px; height: 235px;>
+                
+        
+                <div class="description">
+                    Гидрокостюм мужской
+                </div>
+                <div class="price">
+                    15 000 руб.
+                </div>
+            </div>
+            
+            <div class="products_1"> <!-- Два-->
+               <!--Флажок на картинке-->
+               <div class="item">
+                    <div class="flag_hot">
+                       <p>HOT</p> 
+                    </div>
+                </div>
+                <img src="assets/img/gidro.png" width: 240px; height: 235px;>
+                <div class="description">
+                    Гидрокостюм мужской 
+                </div>
+                <div class="price">
+                    18 000 руб.
+                </div>
+            </div>
+            
+            <div class="products"> <!-- Три-->
+                <img src="assets/img/gidrowoman.jpg" width: 240px; height: 235px;>
+                <div class="description">
+                    Гидрокостюм женский
+                </div>
+                <div class="price">
+                    18 000 руб.
+                </div>
+            </div>
+            
+            <!--Второй ряд товара-->
+            <div class="products_1"> <!-- Один-->
+                <img src="assets/img/gidrowoman2.jpg" width: 240px; height: 235px;>
+                <div class="description">
+                    Гидрокостюм женский
+                </div>
+                <div class="price">
+                    8 000 руб.
+                </div>
+            </div>
+            
+            <div class="products_1"> <!-- Два-->
+                <img src="assets/img/switsuit.jpg" width: 240px; height: 235px;>
+                <div class="description">
+                    Серф Купальник 
+                </div>
+                <div class="price">
+                    10 000 руб.
+                </div>
+            </div>
+            
+            <div class="products"> <!-- Три-->
+                <img src="assets/img/bord.jpg" width: 240px; height: 235px;>
+                <div class="description">
+                    Серф-борд
+                </div>
+                <div class="price">
+                    15 000 руб.
+                </div>
+            </div>
+            
+            <div class="new-products">Самые популярные</div>
+            
+            <!--Третий ряд товара-->
+            <div class="products_1"> <!-- Один-->
+                <img src="assets/img/balansbord.jpg" width: 240px; height: 235px;>
+                <div class="description">
+                    Баланс-борд
+                </div>
+                <div class="price">
+                    11 000 руб.
+                </div>
+            </div>
+            
+            <div class="products_1"> <!-- Два-->
+                <img src="assets/img/decorations.jpg" width: 240px; height: 235px;>
+                <div class="description">
+                    Парное украшение
+                </div>
+                <div class="price">
+                    1 000 руб.
+                </div>
+            </div>
+            
+            <div class="products"> <!-- Три-->
+                <img src="assets/img/tolstovka.jpg" width: 240px; height: 235px;>
+                <div class="description">
+                    Толстовка
+                </div>
+                <div class="price">
+                    3 000 руб.
+                </div>
+            </div>
+            
+            <div class="new-products">Распродажа</div>
+            
+            <!--Третий ряд товара-->
+            <div class="products_1"> <!-- Один-->
+                <img src="assets/img/cream1.jpg" width: 240px; height: 235px;>
+                <div class="description">
+                    Крем от загара
+                </div>
+                <div class="price">
+                    1 000 руб.
+                </div>
+            </div>
+            
+            <div class="products_1"> <!-- Два-->
+                <img src="assets/img/balm.jpg" width: 240px; height: 235px;>
+                <div class="description">
+                    Бальзам для губ
+                </div>
+                <div class="price">
+                    500 руб.
+                </div>
+            </div>
+            
+            <div class="products"> <!-- Три-->
+                <img src="assets/img/cream2.jpg" width: 240px; height: 235px;>
+                <div class="description">
+                    Крем от загара
+                </div>
+                <div class="price">
+                    900 руб.
+                </div>
+            </div>
+           </div> 
+        
+           
+            <!--Блок Бренды-->
+            <div class="brands">
+              <img src="assets/img/catchsurf.gif" class="fist_brands"> 
+              <img src="assets/img/bodyglove.jpg"> 
+              <img src="assets/img/deeply.jpg"> 
+              <img src="assets/img/hottuna.png"> 
+              <img src="assets/img/sexwax.png"> 
+              
+            </div>
+            
+           <!--Фото--> 
+          <div class="instagram">
+            
+            <div class="fa-fa">
+                <i class="fab fa-instagram"></i> <b>Instagram: #surfhouse</b>
+              </div>
+              
+              <img src="assets/img/Livello-25.jpg" class="fist_brands">
+               <img src="assets/img/Livello%2026.png">
+               <img src="assets/img/Livello%2027.png"> 
+               <img src="assets/img/Livello%2028.png"> 
+               <img src="assets/img/Livello%2029.png">
+               <img src="assets/img/Livello%2030.png">
+
+          </div>
+          
+          <!--Соц сети-->
+        <div class="network">
+          
+          <div class="network_1"><a href=""></a></div>
+          <div class="network_2"><a href=""></a></div>
+          <div class="network_3"><a href=""></a></div>
+          
+    </div>
+    </div>
+    
+    <!--Подвал-->
+    <div class="footer">
+     
+      <div class="footer_menu">
+       <h3>Меню</h3>
+       <ul>
+                    <li>Серф-борды</li>
+                    <li>Серф-украшения</li>
+                    <li>Серф-косметика</li>
+                    <li>Баланс-борды</li>
+                    <li>Футболки</li>
+                    <li>Толстовки</li>
+                    <li>Серф-пончо</li>
+                    <li>Купальники</li>
+                    <li>Блог</li>
+                    <li>Подарочные карты</li>
+                    <li>Контакты</li>
+                </ul>
+        </div>
+        <div class="about_us">
+            <h3>Наш девиз</h3>
+            <p>Пусть океан со свеллом далеко, а расстояние до лайн-апа исчисляется тысячами километров — серфинг, прежде всего, внутри нас. Мы уверены: вы понимаете, о чем мы! Поэтому человек, который любит серфинг, смотрит на мир иначе.
+            Мы говорим: We live surfway!</p>
+        </div>
+        
+        <div class="contact">
+            <h3>Свяжитесь с нами:</h3>
+            <p><i class="fas fa-phone-volume"></i> 8-800-264-33-22</p><br>
+            <p><i class="fas fa-phone-volume"></i> 8-819-264-33-22</p><br>
+            <p><i class="far fa-envelope"></i> mail@mail.ru</p><br>
+            <p><i class="fas fa-map-marker-alt"></i> г.Москва ул. Вяземского 15</p><br>
+        </div>
+    </div>  
+     
+      <div class="bt_footer">  
+        <div class="copyright">
+            <p>&copy;SURFHOUSE - Все права защищены. Разработка сайта Авдеева Светлана</p>
+        </div>
+        <div class="bt_icons">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+              <a href=""><i class="fab fa-pinterest-p"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+           </div>
+        
+      </div>   
+        
+
+    
+   </div> 
+</body>
+</html>
